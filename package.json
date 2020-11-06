@@ -1,0 +1,27 @@
+{
+  "name": "epicdev",
+  "version": "1.0.0",
+  "description": "Candidate Test ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikuNelana/epicdev.git"
+  },
+  "author": "Mihlali Nelana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikuNelana/epicdev/issues"
+  },
+  "homepage": "https://github.com/MikuNelana/epicdev#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  }
+}
